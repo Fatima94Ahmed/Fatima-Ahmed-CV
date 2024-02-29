@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+ 
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+ }
+ /*//////////////////////////// */
+ body{
+     height: 3000px;
+
+ }
+ /* /////////////////////// */
+ header {
+
+       
+        background-color: rgb(209, 200, 207);
+        opacity: 0.5;
+        width: 100%; 
+        position: fixed;
+        display: flex;
+        z-index: 999;
+        justify-content: space-between;
+        align-items: center;
+       padding: 10px 150px;
+        box-sizing: border-box;
+   }
+
+   .logo {
+        color: brown;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: bold ;
+   }
+
+   nav a {
+          color: brown;
+          text-decoration: none;
+          font-size: 16px;
+          font-weight:400 ;
+          padding-left: 20px;
+   }
+
+   nav a:hover {
+         color: rgb(179, 172, 173);
+         font-weight: 900;
+   }
+/*/////////////////////////// */
+   .content {
+
+       width: 100%;
+       height: 100vh;
+       display: flex;
+       align-items: center;
+       background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148817571.jpg?w=740&t=st=1708607730~exp=1708608330~hmac=ff1b4e756b29fc1271bb3f71db0b714da3bf6b4be9edf42c868c1ff51c8e2118s);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+      }
+
+      section{
+         padding: 100px 150px;
+
+      }
+
+      .content h2{
+       color: rgb(109, 106, 106);
+       opacity: 0.8;
+       font-size: 30px;
+       font-weight: bold;
+       padding-right: 10px;
+
+      }
+
+       .content h2 span{
+        
+          color: brown;
+          font-size: 20px;
+          font-weight: 200;
+
+            }
+
+        .content h3{
+            
+            color: rgb(134, 104, 104);
+            font-size: 30px;
+
+      }
+
+        .Contact-Me {
+            display: inline-block;
+            color:   rgb(109, 106, 106);
+            opacity: 0.8;
+            background-color:  rgb(209, 200, 207) ;
+            text-decoration: none;
+            padding: 5px 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            transition: 0.5s ease;
+          }
+
+          .Contact-Me:hover{
+                transform: scale(1.1);
+                background-color: rgb(241, 235, 227);
+
+              }
+
+          .social {
+            
+          color: white;
+          font-size: 30px;
+          padding-right: 25px;
+
+        }
+/* ///////////////////////////////// */
+ .Our-Services {
+
+  text-align: center;
+  background-color: #eee;
+ }
+
+ .Our-Services h2{
+  color: brown;
+  opacity: 0.8;
+  font-size: 35px;
+
+ }
+ .Our-Services p{
+    
+  color: gray;
+  font-size: 22px;
+  margin-bottom: 35px;
+
+ }
+
+ .Services {
+  display:flex ;
+ }
+
+ .box{
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(196, 195, 192);
+  transition: all 0.5s ease;
+  cursor: pointer;
+ }
+  
+ .Services :hover{
+   background-color: rgb(233, 233, 230);
+  border-radius: 5px;
+  box-shadow: 0 5px 5px rgb(228, 195, 151);
+
+ }
+ 
+ .box h3{
+    font-size: 25px;
+ }
+
+ .box p{
+  margin-top: 5px;
+  font-size: 20px;
+
+ }
+ .icon {
+ 
+  font-size: 30px;
+
+ }
+
+ 
+ /* //////////////////////// */
+
+ .About-Us{
+  text-align: center;
+ }
+ .About-Us h2 {
+
+ color: brown;
+ opacity: 0.8;
+ font-size: 35px;
+
+ }
+ .About-Us p{
+    
+  color: gray;
+  font-size: 22px;
+  margin-bottom: 35px;
+
+ }
+ .photos{
+
+  display: flex;
+ 
+ }
+ .photo{
+
+  margin: 20px ;
+ 
+ }
+ .photos img{
+  
+    width: 100%;
+ }
+ .photo:hover{
+ 
+  
+  box-shadow: 0 5px 5px burlywood;
+
+ }
+ /*//////////////////////// */
+ .contact-US{
+     
+  background-color: #eee;
+  text-align: center;
+
+ }
+
+ .contact-US h2 {
+
+  color: brown;
+  opacity: 0.8;
+  font-size: 35px;
+ 
+  }
+  .contact-US p{
+     
+   color: gray;
+   font-size: 22px;
+   margin-bottom: 35px;
+ 
+  }
+
+
+ .contact-area{
+
+  width: 60%;
+  background-color: rgb(207, 207, 207);
+  opacity: 0.5;
+  margin: 20px auto;
+  padding: 35px;
+  border: 1px solid paleturquoise;
+  border-radius: 10px;
+ }
+
+ .form-input input{
+  width: 60%;
+  height: 40px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+
+
+ }
+ .form-input textarea{
+  width: 60%;
+  
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid whitesmoke;
+
+ }
+
+ .form-input label {
+  color: rgb(114, 109, 109);
+  font-size: 22px;
+  text-align: left;
+ }
+
+ .send{
+
+  padding: 5px 25px;
+  background-color: rgb(88, 85, 85);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+ }
+ .send:hover {
+  background-color: rgb(163, 159, 159);
+ }
+ footer{
+  border-top: 5px solid rgb(223, 186, 154);
+  background-color: rgb(209, 200, 207);;
+  opacity: 0.5;
+  padding-top: 50px;
+  text-align: center;
+ }
+
+ footer p{
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  
+
+
+ }
